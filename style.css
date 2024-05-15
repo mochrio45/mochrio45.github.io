@@ -515,31 +515,6 @@ li .active-link {
   margin-top: 4px;
 }
 
-.dots {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-
-  position: absolute;
-  right: 50px;
-  bottom: 325px;
-}
-
-.dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #d9d9d9;
-}
-
-.dots .active-dot {
-  width: 12px;
-  height: 12px;
-  background: #bd3934;
-}
-
 /* FOOTER */
 .footer {
   padding-top: 24px;

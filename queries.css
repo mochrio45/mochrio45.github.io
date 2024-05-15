@@ -403,11 +403,6 @@
     font-size: 20px;
   }
 
-  .dots {
-    right: 50px;
-    bottom: 310px;
-  }
-
   /* FOOTER */
   .sponsor .second-heading {
     font-size: 28px;
@@ -428,11 +423,13 @@
 }
 
 @media (max-width: 480px) {
-  /* SECTION HERO */
+  .wrap-header-hero {
+    background-position: -500px;
+  }
+
   .logos .logo {
     height: 40px;
   }
-
   .sub-hero {
     width: 100%;
   }
@@ -445,9 +442,18 @@
     height: 50px;
   }
 
+  /* SECTION HERO */
+  .lokasi-jadwal {
+    flex-direction: column;
+  }
+
   /* SECTION TOURNAMENT FORMAT */
   .section-tournament-format {
     padding-top: 100px;
+  }
+
+  .tournament-format-top {
+    padding: 0 22px;
   }
 
   .tournament-format-top .second-heading {
@@ -472,6 +478,7 @@
 
   .formats {
     padding: 14px 22px;
+    gap: 5px;
   }
 
   .img-format img {
@@ -493,6 +500,14 @@
   }
   .grand-prize .second-heading {
     font-size: 26px;
+  }
+
+  .grand-prize .prize-box-top {
+    flex-wrap: wrap;
+  }
+
+  .grand-prize .prize-box-bottom {
+    flex-wrap: wrap;
   }
 
   .prize-box-top .prize {
@@ -562,22 +577,9 @@
     margin-top: 157px;
   }
 
-  .dots {
-    right: 30px;
-    bottom: 320px;
-  }
-
-  .dot {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: #d9d9d9;
-  }
-
-  .dots .active-dot {
-    width: 10px;
-    height: 10px;
-    background: #bd3934;
+  .email-wa {
+    flex-direction: column;
+    gap: 15px;
   }
 
   /* FOOTER */
